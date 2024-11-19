@@ -26,17 +26,17 @@ This system is designed to accommodate two types of users: passengers and trainm
 - ****Project Screenshort**
 - **Swappable Login Screen for Passengers and Trainmasters (Built with JavaScript):**
 ![Project Screenshot](https://github.com/almahmudpias/Metro-Rail-QR-Ticketing-System/blob/main/static/images/Picture1.png)
-**Homescreen:**
+- **Homescreen:**
 ![Project Screenshot](https://github.com/almahmudpias/Metro-Rail-QR-Ticketing-System/blob/main/static/images/Picture2.png)
-**Tabular View of Ticket, Route, and Purchase Details:**
+- **Tabular View of Ticket, Route, and Purchase Details:**
 ![Project Screenshot](https://github.com/almahmudpias/Metro-Rail-QR-Ticketing-System/blob/main/static/images/Picture3.png)
-**Payment Gateway:**
+- **Payment Gateway:**
 ![Project Screenshot](https://github.com/almahmudpias/Metro-Rail-QR-Ticketing-System/blob/main/static/images/Picture4.png)
-**Downloadable QR Code Ticket in PDF:**
+- **Downloadable QR Code Ticket in PDF:**
 ![Project Screenshot](https://github.com/almahmudpias/Metro-Rail-QR-Ticketing-System/blob/main/static/images/Picture5.png)
-**User Profile with Details and Ticket History:**
+- **User Profile with Details and Ticket History:**
 ![Project Screenshot](https://github.com/almahmudpias/Metro-Rail-QR-Ticketing-System/blob/main/static/images/Picture6.png)
-**Database Schema:**
+- **Database Schema:**
 ![Project Screenshot](https://github.com/almahmudpias/Metro-Rail-QR-Ticketing-System/blob/main/static/images/Database%20Schema.jpg)
 
 ## Authors
