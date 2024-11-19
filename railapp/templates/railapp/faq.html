@@ -1,0 +1,45 @@
+{% extends 'railapp/main.html' %}
+{% block content %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ</title>
+    <link rel="stylesheet" href="{% static 'css/faq.css'%}" />
+  </head>
+
+  <body>
+    <div class="faqs-container">
+      <h1>Questions with answers:</h1>
+          <ul>
+              {% for question in already_answers %}
+                  <li>
+                      <h2>{{ question }} ..@{{ question.user }}</h2>
+                      {% endfor %}
+                      <br>
+                      {% for answer in answer_contents %}
+                          <h2>{{ answer }}..@{{answer.user}}</h2>
+                      {% endfor %}
+                  </li>
+              
+          </ul>
+      <h1>Questions Without Answer</h1>
+          <ul>
+              {% for question in without_answers %}
+              <li>
+                  <h2>{{ question }}</h2>
+                  <br>
+                  {% for answer in question.answer_set.all %}
+                      {{answer}}
+                  {% endfor %}   
+              </li>
+              {% endfor %}
+          </ul>
+    </div>
+    <script src="{% static 'js/faq.js'%}"></script>
+  </body>
+  </html>
+</html>
+{% endblock content %}
