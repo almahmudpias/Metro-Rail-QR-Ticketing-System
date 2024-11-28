@@ -1,5 +1,5 @@
 # **Metro Rail QR Code Ticketing System**
-## **Undergraduate Project for the Course Software Engineering ( CSE 327 )**
+
 
 ### **Project Description**
 The **Metro Rail QR Code Ticketing System** is a web-based train ticket management platform inspired by Dhaka's latest Metro Rail project. This application aims to provide a reliable and efficient experience for Metro Rail passengers, contributing to the vision of **Digital Bangladesh**. The application is user-friendly, visually appealing, and fully functional, with minor bugs.  
